@@ -1,0 +1,10 @@
+1. Home
+    curl -i -X GET http://localhost:8080/
+2. Register
+    curl -i -X POST -H 'Content-Type: application/json' -d '{"username": "Aragorn"}' http://localhost:8080/register
+3. Login
+     curl -i -X POST -H 'Content-Type: application/json' -d '{"username": "Aragorn"}' http://localhost:8080/login
+4. Save product
+    curl -i -X POST -H 'Content-Type: application/json' -d '{"name": "Product 1", "price": "123", "currency":"RUBLE"}' -b 'SESSION=f1840ea7-bb22-4815-8562-3a6d860f111a'  http://localhost:8080/save/product
+4. List products:
+    curl -i -X GET -b 'SESSION=1668a574-6f94-41ed-9c77-f30e081bf4c7' http://localhost:8080/products
