@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="actors.SearchActorSystemTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-06T05:53:23" hostname="Tayas-MBP" time="2.99">
+  <properties/>
+  <testcase name="missOneResponse()" classname="actors.SearchActorSystemTest" time="1.861"/>
+  <testcase name="noResponses()" classname="actors.SearchActorSystemTest" time="0.056"/>
+  <testcase name="getAllResponses()" classname="actors.SearchActorSystemTest" time="1.071"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
+</testsuite>
