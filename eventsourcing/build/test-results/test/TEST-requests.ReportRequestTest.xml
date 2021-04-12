@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="requests.ReportRequestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-12T06:23:34" hostname="Tayas-MacBook-Pro.local" time="0.061">
+  <properties/>
+  <testcase name="unsubscribedReportTest()" classname="requests.ReportRequestTest" time="0.043"/>
+  <testcase name="meanFrequencyTest()" classname="requests.ReportRequestTest" time="0.006"/>
+  <testcase name="subscribedReportTest()" classname="requests.ReportRequestTest" time="0.002"/>
+  <testcase name="meanDurationTest()" classname="requests.ReportRequestTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
